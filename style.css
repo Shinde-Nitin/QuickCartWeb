@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Actionbar {
+    /* width: 1460px; */
+    height: 114px;
+    background-color: #A4FAFA;
+    display: flex;
+}
+
+/* pngkey.com-cart-png-3969997 1 */
+
+
+
+.Actionbar .image {
+    margin: 20px;
+    width: 75px;
+    height: 64px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 8px; */
+    font-size: 33px;
+}
+
+.Actionbar .textbox input {
+    padding-top: 25px;
+    /* Rectangle 2 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 634px;
+    height: 65px;
+    left: 305px;
+    top: 25px;
+    background: #FFFFFF;
+    border: 1px solid #8E8989;
+    border-radius: 8px;
+    place-items: 25px;
+    font-size: 30px;
+    text-align: left;
+    padding: 0 20px;
+
+}
+
+.Actionbar .search {
+    /* Rectangle 3 */
+
+    position: absolute;
+    width: 83px;
+    height: 67px;
+    left: 940px;
+    top: 24px;
+    background: #FF7A00;
+    border-radius: 8px;
+
+}
+
+.Actionbar .wishlist {
+    margin: 19px 0 0 850px;
+}
+
+.Actionbar .wltext {
+    /* Wishlist */
+
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    left: 1092px;
+    top: 79px;
+
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+
+    color: #000000;
+
+
+}
+
+.Actionbar .profile {
+    /* account_circle_24dp_FILL0_wght400_GRAD0_opsz24 1 */
+
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 1240px;
+    top: 19px;
+
+    background: url(account_circle_24dp_FILL0_wght400_GRAD0_opsz24.png);
+
+}
+
+.Actionbar .pftext {
+    /* Profile */
+
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 0px;
+    top: 60px;
+
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+
+    color: #000000;
+
+
+}
+
+.Actionbar .cart {
+    /* shopping_cart_24dp_FILL0_wght400_GRAD0_opsz24 (1) 1 */
+
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 130px;
+    top: 2px;
+
+    background: url(.png);
+    /* shopping_cart_24dp_FILL0_wght400_GRAD0_opsz24 (1) 1 */
+
+}
+
+.Actionbar .cdtext {
+    /* Cart */
+
+    position: absolute;
+    width: 83px;
+    height: 18px;
+    left: 140px;
+    top: 60px;
+
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.menu {
+    /* width: 1450px; */
+    height: 69px;
+    background-color: #070032;
+    display: flex;
+}
+
+.menu .menuline {
+    /* menu_24dp_FILL0_wght400_GRAD0_opsz24 1 */
+
+    position: absolute;
+    width: 53px;
+    height: 57px;
+    left: 15px;
+    top: 121px;
+
+    background: url(menu_24dp_FILL0_wght400_GRAD0_opsz24.png);
+
+}
+
+.menu .menutext {
+    /* All */
+
+    position: absolute;
+    width: 47px;
+    height: 18px;
+    left: 79px;
+    top: 135px;
+
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.menu .menubar .men {
+    /* Men */
+
+    position: absolute;
+    width: 55px;
+    height: 18px;
+    left: 168px;
+    top: 135px;
+
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.menu .menubar .women {
+    /* Women */
+
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 265px;
+    top: 135px;
+
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.menu .menubar .kids {
+    /* Kids */
+
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 400px;
+    top: 135px;
+
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.menu .menubar .buthel {
+    /* Buety & Health */
+
+    position: absolute;
+    width: 179px;
+    height: 18px;
+    left: 500px;
+    top: 135px;
+
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.menu .menubar .bgsAFt {
+    /* Bags & Footware */
+
+    position: absolute;
+    width: 213px;
+    height: 18px;
+    left: 728px;
+    top: 135px;
+
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+
+}

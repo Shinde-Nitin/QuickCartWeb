@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="Actionbar">
+
+            <img src="image.png" class="image" alt="img">
+            <div class="text">
+                QuickCart
+            </div>
+            <div class="textbox">
+                <input type="text" name="name" placeholder="Search for Products">
+            </div>
+            <div class="search">
+                <i class="fa-thin fa-magnifying-glass"></i>
+            </div>
+            <div class="wishlist">
+                <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="55" height="55" fill="url(#pattern0_12_4)" />
+                    <defs>
+                        <pattern id="pattern0_12_4" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_12_4" transform="scale(0.0104167)" />
+                        </pattern>
+                        <image id="image0_12_4" width="96" height="96"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+                <div class="wltext">
+                    Wishlist
+                </div>
+
+                <div class="profile">
+                    <svg width="55" height="55" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="54" height="54" fill="url(#pattern0_9_13)" />
+                        <defs>
+                            <pattern id="pattern0_9_13" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_9_13" transform="scale(0.0104167)" />
+                            </pattern>
+                            <image id="image0_9_13" width="96" height="96"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAB
+                                gCAYAAADimHc4AAAAAXNSR0IArs4c6QAACqNJREFUeF7tnWfMNUUVx/8QERQ0FAkgqBSxQAIiGmw
+                                kFhAExBI0EtoHQQVBECQiiqKCJYBgoykfsESjBAULRUETECFYSYiFXgSMigalqFj2B7Nxvbk750zZu/f
+                                NuyfZvA88U89/5sxpM88qmmhUDqwyau9T55oAGHkRTABMAIzMgZG7n3bABMDIHBi5+2kHTABEOfAkSS+QtGH4Nu
+                                j83P4/Grhn5vt957+vlvTHkfnc2/0y7oCNJe0q6U2SdqrEuO9L+moD5sWSflepzSrNLAsAm0t6paTdJL26ysz6
+                                G/mWpO9KulTSzQP3ZTY/NgB7SHrLApjexwjAOFvSt01ODVRgLADGZvwsO0cDYtEALBvjRwdiUQAsO+NHA2IRABwp6ZSBR
+                                OjQzR4l6RNDdjI0AJ+U9I7CCVwbtBZ0eb4/hX/bn2l+PUnYDHzdn9Gqnl/Y/6ckHV7Yxih2wAWS9swY+P0dNRFV8faMN
+                                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" />
+                        </defs>
+                    </svg>
+                    <div class="pftext">
+                        Profile
+                    </div>
+
+                    <div class="cart">
+                        <svg width="55" height="55" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="54" height="54" fill="url(#pattern0_12_6)" />
+                            <defs>
+                                <pattern id="pattern0_12_6" patternContentUnits="objectBoundingBox" width="1"
+                                    height="1">
+                                    <use xlink:href="#image0_12_6" transform="scale(0.0104167)" />
+                                </pattern>
+                                <image id="image0_12_6" width="96" height="96"
+                                    xlink:href="data:image/png;base64,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" />
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="cdtext">
+                        Cart
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu">
+        <div class="menuline">
+        <svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="53" height="57" fill="url(#pattern0_13_4)"/>
+            <defs>
+            <pattern id="pattern0_13_4" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_13_4" transform="matrix(0.0112028 0 0 0.0104167 -0.0377358 0)"/>
+            </pattern>
+            <image id="image0_13_4" width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAYtJREFUeF7t2dGJAkEUBVEnBkHMPzoRjEExAaE/hmofZ78XarpqriJ9XPylBo6UDn4RIH4JBBAgNhDjLUCA2ECMtwABYgMx3gIEiA3EeAsQIDYQ4y1AgNhAjLcAAWIDMd4CBIgNxHgLECA2EOMtQIDYQIy3gH8L8Hi+3vEzb42/365LL/XSP39PLsDv/gLE+xBAgNhAjLcAAWIDMd4CpgeIzzcOv/w7YJyB+EACCBAbiPEWIEBsIMZbgACxgRhvAQLEBmK8BQgQG4jxywtwJelKMn5nBRBgawPxw7mQESA2EOMtQIDYQIw/fQHx+cbhl3+IjTMQH0gAAWIDMd4CBIgNxHgLECA2EOMtQIDYQIy3AAFiAzF+eQHuhF1Jxu+sAAJsbSB+uNPvA3wH+AiK33EBBNjaQPxwp38HxOcbh1/+ITbOQHwgAQSIDcR4CxAgNhDjLUCA2ECMtwABYgMx3gIEiA3EeAsQIDYQ4y1AgNhAjLcAAWIDMd4CBIgNxHgLECA2EOMtQIDYQIz/AM8DYGHWj3E9AAAAAElFTkSuQmCC"/>
+            </defs>
+            </svg>
+        </div>
+        <div class="menutext">
+            All
+        </div>
+        <div class="menubar">
+            <div class="men">Men</div>
+            <div class="women">Women</div>
+            <div class="kids">Kids</div>
+            <div class="buthel">Buety & Health</div>
+            <div class="bgsAFt">Bags & Footware</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
