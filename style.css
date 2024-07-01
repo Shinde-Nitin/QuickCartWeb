@@ -15,8 +15,8 @@
 
 .Actionbar .image {
     margin: 20px;
-    width: 60px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
 }
 
 .text {
@@ -40,7 +40,7 @@
     border: 1px solid #8E8989;
     border-radius: 8px;
     place-items: 25px;
-    font-size: 20px;
+    font-size: 23px;
     text-align: left;
     padding: 0 20px;
 
@@ -75,7 +75,7 @@
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 24px;
 
     color: #000000;
@@ -108,7 +108,7 @@
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 24px;
 
     color: #000000;
@@ -142,7 +142,7 @@
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 24px;
 
     color: #000000;
@@ -161,7 +161,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 15px;
+    left: 19px;
     top: 92px;
 
     background: url(menu_24dp_FILL0_wght400_GRAD0_opsz24.png);
@@ -180,7 +180,7 @@
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 27px;
 
     color: #FFFFFF;
@@ -198,7 +198,7 @@
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 27px;
 
     color: #FFFFFF;
@@ -216,7 +216,7 @@
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 27px;
 
     color: #FFFFFF;
@@ -234,7 +234,7 @@
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 27px;
 
     color: #FFFFFF;
@@ -252,7 +252,7 @@
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 27px;
 
     color: #FFFFFF;
@@ -270,10 +270,8 @@
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 27px;
 
     color: #FFFFFF;
-
-
 }
