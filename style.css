@@ -5,19 +5,18 @@
 
 .Actionbar {
     /* width: 1460px; */
-    height: 114px;
+    height: 90px;
     background-color: #A4FAFA;
     display: flex;
+    
 }
 
 /* pngkey.com-cart-png-3969997 1 */
 
-
-
 .Actionbar .image {
     margin: 20px;
-    width: 75px;
-    height: 64px;
+    width: 60px;
+    height: 55px;
 }
 
 .text {
@@ -25,23 +24,23 @@
     justify-content: center;
     align-items: center;
     /* padding-top: 8px; */
-    font-size: 33px;
+    font-size: 30px;
 }
 
 .Actionbar .textbox input {
-    padding-top: 25px;
+    padding-top: 10px;
     /* Rectangle 2 */
     box-sizing: border-box;
     position: absolute;
-    width: 634px;
-    height: 65px;
-    left: 305px;
-    top: 25px;
+    width: 600px;
+    height: 50px;
+    left: 270px;
+    top: 20px;
     background: #FFFFFF;
     border: 1px solid #8E8989;
     border-radius: 8px;
     place-items: 25px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
     padding: 0 20px;
 
@@ -51,27 +50,27 @@
     /* Rectangle 3 */
 
     position: absolute;
-    width: 83px;
-    height: 67px;
-    left: 940px;
-    top: 24px;
+    width: 63px;
+    height: 52px;
+    left: 870px;
+    top: 20px;
     background: #FF7A00;
     border-radius: 8px;
 
 }
 
 .Actionbar .wishlist {
-    margin: 19px 0 0 850px;
+    margin: 16px 0 0 850px;
 }
 
 .Actionbar .wltext {
     /* Wishlist */
 
     position: absolute;
-    width: 80px;
+    width: 60px;
     height: 18px;
-    left: 1092px;
-    top: 79px;
+    left: 1060px;
+    top: 60px;
 
     font-family: 'JejuGothic';
     font-style: normal;
@@ -88,10 +87,10 @@
     /* account_circle_24dp_FILL0_wght400_GRAD0_opsz24 1 */
 
     position: absolute;
-    width: 54px;
-    height: 54px;
+    width: 45px;
+    height: 45px;
     left: 1240px;
-    top: 19px;
+    top: 15px;
 
     background: url(account_circle_24dp_FILL0_wght400_GRAD0_opsz24.png);
 
@@ -101,10 +100,10 @@
     /* Profile */
 
     position: absolute;
-    width: 72px;
+    width: 62px;
     height: 18px;
-    left: 0px;
-    top: 60px;
+    left: -8px;
+    top: 45px;
 
     font-family: 'JejuGothic';
     font-style: normal;
@@ -121,8 +120,8 @@
     /* shopping_cart_24dp_FILL0_wght400_GRAD0_opsz24 (1) 1 */
 
     position: absolute;
-    width: 54px;
-    height: 54px;
+    width: 45px;
+    height: 45px;
     left: 130px;
     top: 2px;
 
@@ -135,10 +134,10 @@
     /* Cart */
 
     position: absolute;
-    width: 83px;
-    height: 18px;
-    left: 140px;
-    top: 60px;
+    width: 63px;
+    height: 15px;
+    left: 132px;
+    top: 45px;
 
     font-family: 'JejuGothic';
     font-style: normal;
@@ -151,7 +150,7 @@
 
 .menu {
     /* width: 1450px; */
-    height: 69px;
+    height: 48px;
     background-color: #070032;
     display: flex;
 }
@@ -160,10 +159,10 @@
     /* menu_24dp_FILL0_wght400_GRAD0_opsz24 1 */
 
     position: absolute;
-    width: 53px;
-    height: 57px;
+    width: 45px;
+    height: 45px;
     left: 15px;
-    top: 121px;
+    top: 92px;
 
     background: url(menu_24dp_FILL0_wght400_GRAD0_opsz24.png);
 
@@ -175,8 +174,8 @@
     position: absolute;
     width: 47px;
     height: 18px;
-    left: 79px;
-    top: 135px;
+    left: 70px;
+    top: 100px;
 
     font-family: 'JejuGothic';
     font-style: normal;
@@ -193,8 +192,8 @@
     position: absolute;
     width: 55px;
     height: 18px;
-    left: 168px;
-    top: 135px;
+    left: 160px;
+    top: 100px;
 
     font-family: 'JejuGothic';
     font-style: normal;
@@ -211,8 +210,8 @@
     position: absolute;
     width: 100px;
     height: 18px;
-    left: 265px;
-    top: 135px;
+    left: 260px;
+    top: 100px;
 
     font-family: 'JejuGothic';
     font-style: normal;
@@ -229,8 +228,8 @@
     position: absolute;
     width: 100px;
     height: 18px;
-    left: 400px;
-    top: 135px;
+    left: 390px;
+    top: 100px;
 
     font-family: 'JejuGothic';
     font-style: normal;
@@ -247,8 +246,8 @@
     position: absolute;
     width: 179px;
     height: 18px;
-    left: 500px;
-    top: 135px;
+    left: 490px;
+    top: 100px;
 
     font-family: 'JejuGothic';
     font-style: normal;
@@ -265,8 +264,8 @@
     position: absolute;
     width: 213px;
     height: 18px;
-    left: 728px;
-    top: 135px;
+    left: 700px;
+    top: 100px;
 
     font-family: 'JejuGothic';
     font-style: normal;
