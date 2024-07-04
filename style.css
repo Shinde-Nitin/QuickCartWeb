@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(230, 224, 224);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +12,7 @@
     height: 90px;
     background-color: #A4FAFA;
     display: flex;
-    
+
 }
 
 /* pngkey.com-cart-png-3969997 1 */
@@ -69,7 +73,7 @@
     position: absolute;
     width: 60px;
     height: 18px;
-    left: 1060px;
+    left: 1050px;
     top: 60px;
 
     font-family: 'JejuGothic';
@@ -89,7 +93,7 @@
     position: absolute;
     width: 45px;
     height: 45px;
-    left: 1240px;
+    left: 1210px;
     top: 15px;
 
     background: url(account_circle_24dp_FILL0_wght400_GRAD0_opsz24.png);
@@ -102,7 +106,7 @@
     position: absolute;
     width: 62px;
     height: 18px;
-    left: -8px;
+    left: -12px;
     top: 45px;
 
     font-family: 'JejuGothic';
@@ -274,4 +278,1109 @@
     line-height: 27px;
 
     color: #FFFFFF;
+}
+
+.home .firstimghome {
+    /* Rectangle 5 */
+
+    position: absolute;
+    /* width: 1520px; */
+    height: 356px;
+    right: 0px;
+    top: 150px;
+
+    background: url(banner2.png);
+}
+
+.home .left {
+    /* Rectangle 6 */
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    left: 0px;
+    top: 270px;
+    background: #FFFFFF;
+
+}
+
+.home .left .leftarrow {
+    /* chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 2 */
+    position: absolute;
+    width: 45px;
+    height: 65px;
+    left: 0px;
+    top: 20px;
+    background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
+
+}
+
+.home .right {
+    /* Rectangle 7 */
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    /* left: 1381px; */
+    right: 0px;
+    top: 260px;
+    background: #FFFFFF;
+}
+
+.home .right .rightarrow {
+    /* chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 1 */
+
+    position: absolute;
+    width: 45px;
+    height: 65px;
+    /* left: 1377px; */
+    top: 20px;
+
+    background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
+
+}
+
+.home .right .rightarrow .dots .span1 {
+    /* Ellipse 4 */
+    /* box-sizing: border-box; */
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 800px;
+    top: 200px;
+    background: #faf7f7;
+    border: 1px solid #000000;
+}
+
+.home .right .rightarrow .dots .span2 {
+    /* Ellipse 4 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 760px;
+    top: 200px;
+    background: #faf7f7;
+    border: 1px solid #000000;
+}
+
+.home .right .rightarrow .dots .span3 {
+    /* Ellipse 4 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 720px;
+    top: 200px;
+    background: #faf7f7;
+    border: 1px solid #000000;
+}
+
+.home .right .rightarrow .dots .span4 {
+    /* Ellipse 4 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 680px;
+    top: 200px;
+    background: #faf7f7;
+    border: 1px solid #000000;
+}
+
+.home .right .rightarrow .dots .span5 {
+    /* Ellipse 4 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 640px;
+    top: 200px;
+    background: #faf7f7;
+    border: 1px solid #000000;
+}
+
+/* .content{
+    background-color: rgb(165, 165, 165);
+} */
+
+.content .first-cont {
+    /* Rectangle 8 */
+    display: flex;
+    position: absolute;
+    width: 1435px;
+    height: 320px;
+    margin: 18px;
+    top: 520px;
+    z-index: 1;
+    background: white;
+
+}
+
+.content .text {
+    /* * Trending Electronics */
+    position: absolute;
+    width: 320px;
+    height: 33px;
+    left: 0px;
+    top: 550px;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    z-index: 2;
+    /* identical to box height */
+    color: #000000;
+}
+
+.box1 .img1 {
+    /* Rectangle 9 */
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 60px;
+    top: 600px;
+    z-index: 2;
+    background: url(61PnHlc0HCL._AC_UY218_.jpg);
+
+}
+
+.box1 span {
+    /* Apple iPad */
+    z-index: 2;
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 56px;
+    top: 820px;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box2 .img2 {
+    /* Rectangle 10 */
+    position: absolute;
+    width: 210px;
+    height: 220px;
+    left: 345px;
+    top: 600px;
+    z-index: 2;
+    background: url(61wjDV8p6PL._AC_UY218_.jpg);
+}
+
+.box2 span {
+    /* Apple Smart Watch */
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 345px;
+    top: 820px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.box3 .img3 {
+    /* Rectangle 10 */
+    position: absolute;
+    width: 210px;
+    height: 220px;
+    left: 620px;
+    top: 600px;
+    z-index: 2;
+    background: url(61wjDV8p6PL._AC_UY218_.jpg);
+}
+
+.box3 span {
+    /* Apple Smart Watch */
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 620px;
+    top: 820px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box4 .img4 {
+    /* Rectangle 10 */
+    position: absolute;
+    width: 210px;
+    height: 220px;
+    left: 890px;
+    top: 590px;
+    z-index: 2;
+    background: url(61wjDV8p6PL._AC_UY218_.jpg);
+}
+
+.box4 span {
+    /* Apple Smart Watch */
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 910px;
+    top: 820px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box5 .img5 {
+    /* Rectangle 10 */
+    position: absolute;
+    width: 210px;
+    height: 220px;
+    left: 1190px;
+    top: 600px;
+    z-index: 2;
+    background: url(61wjDV8p6PL._AC_UY218_.jpg);
+}
+
+.box5 span {
+    /* Apple Smart Watch */
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 1190px;
+    top: 820px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/* 
+.content-second{
+    margin-top: 1000px;
+} */
+
+.content-second .second-cont {
+    /* Rectangle 8 */
+    display: flex;
+    position: absolute;
+    width: 1435px;
+    height: 320px;
+    margin: 18px;
+    top: 880px;
+    z-index: 1;
+    background: white;
+
+}
+
+.content-second .text2 {
+    /* * Trending Electronics */
+    position: absolute;
+    width: 320px;
+    height: 33px;
+    left: 35px;
+    top: 910px;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    z-index: 2;
+    /* identical to box height */
+    color: #000000;
+}
+
+.box2-1 .img2-1 {
+    /* Rectangle 9 */
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 60px;
+    top: 945px;
+    z-index: 2;
+    background: url(61PnHlc0HCL._AC_UY218_.jpg);
+
+}
+
+.box2-1 span {
+    /* Western Shirt */
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 60px;
+    z-index: 2;
+    top: 1178px;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box2-2 .img2-2 {
+    /* Rectangle 10 */
+    position: absolute;
+    width: 230px;
+    height: 220px;
+    left: 345px;
+    top: 950px;
+    z-index: 2;
+    background: url(61wjDV8p6PL._AC_UY218_.jpg);
+}
+
+.box2-2 span {
+    /* Apple Smart Watch */
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 345px;
+    top: 1178px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box2-3 .img2-3 {
+    position: absolute;
+    width: 221px;
+    height: 250px;
+    left: 620px;
+    top: 950px;
+    z-index: 2;
+    background: url(4-5-years-k21eb132lbl05-kid1-original-imahfqmqfd7g9eqd.png);
+}
+
+.box2-3 span {
+    position: absolute;
+    width: 221px;
+    height: 249px;
+    left: 625px;
+    top: 1175px;
+    z-index: 2;
+}
+
+.box2-4 .img2-4 {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 900px;
+    top: 945px;
+    z-index: 2;
+    background: url(l-fsh-dress-mx-1-n56-fashfun-original-imahfvb9cfnva2et.png);
+}
+
+.box2-4 span {
+
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 895px;
+    top: 1180px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box2-5 .img2-5 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 1180px;
+    top: 928px;
+    z-index: 2;
+    background: url(xxl-justpl08-digimi-original-imagxffgf2fdab2z.png);
+}
+
+.box2-5 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 1157px;
+    top: 1180px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.content-third .third-cont {
+    /* Rectangle 8 */
+    display: flex;
+    position: absolute;
+    width: 1435px;
+    height: 320px;
+    margin: 18px;
+    top: 1240px;
+    z-index: 1;
+    background: white;
+
+}
+
+.content-third .text3 {
+    position: absolute;
+    width: 320px;
+    height: 33px;
+    left: 35px;
+    top: 1270px;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    z-index: 2;
+    color: #000000;
+}
+
+.box3-1 .img3-1 {
+    position: absolute;
+    width: 225px;
+    height: 237px;
+    left: 55px;
+    top: 1320px;
+    z-index: 2;
+    background: url(apple.jpg);
+}
+
+.box3-1 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 59px;
+    top: 1540px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box3-2 .img3-2 {
+    position: absolute;
+    width: 221px;
+    height: 224px;
+    left: 350px;
+    top: 1330px;
+    z-index: 2;
+    background: url(kiwi.jpg);
+    border-radius: 6px;
+}
+
+.box3-2 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 347px;
+    top: 1540px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box3-3 .img3-3 {
+    position: absolute;
+    width: 221px;
+    height: 249px;
+    left: 630px;
+    top: 1330px;
+    z-index: 2;
+    background: url(almond.jpg);
+}
+
+.box3-3 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 625px;
+    top: 1540px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box3-4 .img3-4 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 897px;
+    top: 1310px;
+    z-index: 2;
+    background: url(pistachio.jpg);
+}
+
+.box3-4 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 897px;
+    top: 1540px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box3-5 .img3-5 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 1192px;
+    top: 1290px;
+    z-index: 2;
+    background: url(mango.jpg);
+}
+
+.box3-5 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 1190px;
+    top: 1535px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.content-four .four-cont {
+    /* Rectangle 8 */
+    display: flex;
+    position: absolute;
+    width: 1435px;
+    height: 320px;
+    margin: 18px;
+    top: 1600px;
+    z-index: 1;
+    background: white;
+
+}
+
+.content-four .text4 {
+    position: absolute;
+    width: 320px;
+    height: 33px;
+    left: 35px;
+    top: 1630px;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    z-index: 2;
+    color: #000000;
+}
+
+.box4-1 .img4-1 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 65px;
+    top: 1680px;
+    z-index: 2;
+    background: url(refriherator.jpg);
+}
+
+.box4-1 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 67px;
+    top: 1895px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box4-2 .img4-2 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 345px;
+    top: 1680px;
+    z-index: 2;
+    background: url(bed.jpg);
+}
+
+.box4-2 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 345px;
+    top: 1895px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box4-3 .img4-3 {
+    position: absolute;
+    width: 221px;
+    height: 249px;
+    left: 620px;
+    top: 1670px;
+    z-index: 2;
+    background: url(cycle.jpg);
+}
+
+.box4-3 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 615px;
+    top: 1895px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box4-4 .img4-4 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 895px;
+    top: 1660px;
+    z-index: 2;
+    background: url(dianingtable.jpg);
+}
+
+.box4-4 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 891px;
+    top: 1895px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box4-5 .img4-5 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 1172px;
+    top: 1926px;
+    z-index: 2;
+    background: url(luggessets.jpg);
+}
+
+
+.box4-5 .img4-5 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 1170px;
+    top: 1660px;
+    z-index: 2;
+    background: url(luggessets.jpg);
+}
+
+.box4-5 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 1172px;
+    top: 1895px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.content-five .five-cont {
+    /* Rectangle 8 */
+    display: flex;
+    position: absolute;
+    width: 1435px;
+    height: 320px;
+    margin: 18px;
+    top: 1960px;
+    z-index: 1;
+    background: white;
+
+}
+
+.content-five .text5 {
+    position: absolute;
+    width: 320px;
+    height: 33px;
+    left: 35px;
+    top: 1990px;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    z-index: 2;
+    color: #000000;
+}
+
+.box5-1 .img5-1 {
+    position: absolute;
+    width: 221px;
+    height: 231px;
+    left: 70px;
+    top: 2035px;
+    z-index: 2;
+    background: url(shoes.jpg);
+}
+
+.box5-1 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 44px;
+    top: 2259px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box5-2 .img5-2 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 340px;
+    top: 2058px;
+    z-index: 2;
+    background: url(laptop.jpg);
+}
+
+.box5-2 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 348px;
+    top: 2260px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box5-3 .img5-3 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 608px;
+    top: 2040px;
+    z-index: 2;
+    background: url(airpods.jpg);
+}
+
+.box5-3 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 608px;
+    top: 2260px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box5-4 .img5-4 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 891px;
+    top: 2039px;
+    z-index: 2;
+    background: url(facewash.jpg);
+}
+
+.box5-4 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 891px;
+    top: 2259px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box5-5 .img5-5 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 1172px;
+    top: 2040px;
+    z-index: 2;
+    background: url(images.jpg);
+}
+
+.box5-5 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 1175px;
+    top: 2263px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.content-six .six-cont {
+    display: flex;
+    position: absolute;
+    width: 1435px;
+    height: 320px;
+    margin: 18px;
+    top: 2320px;
+    z-index: 1;
+    background: white;
+}
+
+.content-six .text6 {
+    position: absolute;
+    width: 320px;
+    height: 33px;
+    left: 35px;
+    top: 2350px;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    z-index: 2;
+    color: #000000;
+}
+
+.box6-1 .img6-1 {
+    position: absolute;
+    width: 236px;
+    height: 279px;
+    left: 65px;
+    top: 2400px;
+    z-index: 2;
+    background: url(71NXowebfKL._AC_UL320_.jpg);
+    border-radius: 8px;
+}
+
+.box6-1 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 45px;
+    top: 2618px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box6-2 .img6-2 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 325px;
+    top: 2366px;
+    z-index: 2;
+    background: url(xxl-justpl08-digimi-original-imagxffgf2fdab2z.png);
+}
+
+.box6-2 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 335px;
+    top: 2620px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box6-3 .img6-3 {
+    z-index: 2;
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 608px;
+    top: 2410px;
+    background: url(pistachio.jpg);
+}
+
+.box6-3 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 609px;
+    top: 2620px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box6-4 .img6-4 {
+    position: absolute;
+    width: 221px;
+    height: 237px;
+    left: 890px;
+    top: 2386px;
+    background: url(pistachio.jpg);
+    z-index: 2;
+}
+
+.box6-4 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 890px;
+    top: 2620px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.box6-5 .img6-5 {
+    position: absolute;
+    width: 221px;
+    height: 231px;
+    left: 1175px;
+    top: 2386px;
+    z-index:2;
+    background: url(shoes.jpg);
+}
+
+.box6-5 span {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 1171px;
+    top: 2620px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
 }
