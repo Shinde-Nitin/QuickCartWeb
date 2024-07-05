@@ -65,6 +65,7 @@ body {
 
 .Actionbar .wishlist {
     margin: 16px 0 0 850px;
+    cursor: pointer;
 }
 
 .Actionbar .wltext {
@@ -75,7 +76,7 @@ body {
     height: 18px;
     left: 1050px;
     top: 60px;
-
+    cursor: pointer;
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
@@ -95,7 +96,7 @@ body {
     height: 45px;
     left: 1210px;
     top: 15px;
-
+    cursor: pointer;
     background: url(account_circle_24dp_FILL0_wght400_GRAD0_opsz24.png);
 
 }
@@ -128,7 +129,7 @@ body {
     height: 45px;
     left: 130px;
     top: 2px;
-
+    cursor: pointer;
     background: url(.png);
     /* shopping_cart_24dp_FILL0_wght400_GRAD0_opsz24 (1) 1 */
 
@@ -154,6 +155,7 @@ body {
 
 .menu {
     /* width: 1450px; */
+    /* cursor: pointer; */
     height: 48px;
     background-color: #070032;
     display: flex;
@@ -161,7 +163,7 @@ body {
 
 .menu .menuline {
     /* menu_24dp_FILL0_wght400_GRAD0_opsz24 1 */
-
+    cursor: pointer;
     position: absolute;
     width: 45px;
     height: 45px;
@@ -198,7 +200,7 @@ body {
     height: 18px;
     left: 160px;
     top: 100px;
-
+    cursor: pointer;
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
@@ -216,7 +218,7 @@ body {
     height: 18px;
     left: 260px;
     top: 100px;
-
+    cursor: pointer;
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
@@ -234,7 +236,7 @@ body {
     height: 18px;
     left: 390px;
     top: 100px;
-
+    cursor: pointer;
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
@@ -252,7 +254,7 @@ body {
     height: 18px;
     left: 490px;
     top: 100px;
-
+    cursor: pointer;
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
@@ -270,7 +272,7 @@ body {
     height: 18px;
     left: 700px;
     top: 100px;
-
+    cursor: pointer;
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
@@ -288,7 +290,7 @@ body {
     height: 356px;
     right: 0px;
     top: 150px;
-
+    cursor: pointer;
     background: url(banner2.png);
 }
 
@@ -299,6 +301,7 @@ body {
     height: 100px;
     left: 0px;
     top: 270px;
+    cursor: pointer;
     background: #FFFFFF;
 
 }
@@ -309,6 +312,7 @@ body {
     width: 45px;
     height: 65px;
     left: 0px;
+    cursor: pointer;
     top: 20px;
     background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
 
@@ -322,6 +326,7 @@ body {
     /* left: 1381px; */
     right: 0px;
     top: 260px;
+    cursor: pointer;
     background: #FFFFFF;
 }
 
@@ -333,7 +338,7 @@ body {
     height: 65px;
     /* left: 1377px; */
     top: 20px;
-
+    cursor: pointer;
     background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
 
 }
@@ -346,6 +351,7 @@ body {
     height: 13px;
     right: 800px;
     top: 200px;
+    cursor: pointer;
     background: #faf7f7;
     border: 1px solid #000000;
 }
@@ -355,6 +361,7 @@ body {
     box-sizing: border-box;
     position: absolute;
     width: 13px;
+    cursor: pointer;
     height: 13px;
     right: 760px;
     top: 200px;
@@ -369,6 +376,7 @@ body {
     width: 13px;
     height: 13px;
     right: 720px;
+    cursor: pointer;
     top: 200px;
     background: #faf7f7;
     border: 1px solid #000000;
@@ -380,6 +388,7 @@ body {
     position: absolute;
     width: 13px;
     height: 13px;
+    cursor: pointer;
     right: 680px;
     top: 200px;
     background: #faf7f7;
@@ -392,6 +401,7 @@ body {
     position: absolute;
     width: 13px;
     height: 13px;
+    cursor: pointer;
     right: 640px;
     top: 200px;
     background: #faf7f7;
@@ -432,6 +442,30 @@ body {
     color: #000000;
 }
 
+.content .circle-1 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    left: 1370px;
+    top: 552px;
+    z-index: 2;
+    background: #A4FAFA;
+}
+
+.content .arrows-1 {
+    /* chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 (1) 1 */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1365px;
+    cursor: pointer;
+    top: 550px;
+    z-index: 2;
+    background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
+
+}
+
 .box1 .img1 {
     /* Rectangle 9 */
 
@@ -441,6 +475,7 @@ body {
     left: 60px;
     top: 600px;
     z-index: 2;
+    cursor: pointer;
     background: url(61PnHlc0HCL._AC_UY218_.jpg);
 
 }
@@ -452,6 +487,7 @@ body {
     width: 221px;
     height: 38px;
     left: 56px;
+    cursor: pointer;
     top: 820px;
     font-family: 'JejuGothic';
     font-style: normal;
@@ -467,6 +503,7 @@ body {
     position: absolute;
     width: 210px;
     height: 220px;
+    cursor: pointer;
     left: 345px;
     top: 600px;
     z-index: 2;
@@ -479,6 +516,7 @@ body {
     width: 221px;
     height: 38px;
     left: 345px;
+    cursor: pointer;
     top: 820px;
     z-index: 2;
     font-family: 'JejuGothic';
@@ -496,6 +534,7 @@ body {
     position: absolute;
     width: 210px;
     height: 220px;
+    cursor: pointer;
     left: 620px;
     top: 600px;
     z-index: 2;
@@ -509,6 +548,7 @@ body {
     height: 38px;
     left: 620px;
     top: 820px;
+    cursor: pointer;
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
@@ -523,6 +563,7 @@ body {
     /* Rectangle 10 */
     position: absolute;
     width: 210px;
+    cursor: pointer;
     height: 220px;
     left: 890px;
     top: 590px;
@@ -537,6 +578,7 @@ body {
     height: 38px;
     left: 910px;
     top: 820px;
+    cursor: pointer;
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
@@ -552,6 +594,7 @@ body {
     position: absolute;
     width: 210px;
     height: 220px;
+    cursor: pointer;
     left: 1190px;
     top: 600px;
     z-index: 2;
@@ -565,6 +608,7 @@ body {
     height: 38px;
     left: 1190px;
     top: 820px;
+    cursor: pointer;
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
@@ -611,11 +655,36 @@ body {
     color: #000000;
 }
 
+.content .circle-2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    left: 1370px;
+    top: 905px;
+    z-index: 2;
+    background: #A4FAFA;
+}
+
+.content .arrows-2 {
+    /* chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 (1) 1 */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    left: 1365px;
+    top: 903px;
+    z-index: 2;
+    background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
+
+}
+
 .box2-1 .img2-1 {
     /* Rectangle 9 */
 
     position: absolute;
     width: 150px;
+    cursor: pointer;
     height: 150px;
     left: 60px;
     top: 945px;
@@ -628,6 +697,7 @@ body {
     /* Western Shirt */
     position: absolute;
     width: 221px;
+    cursor: pointer;
     height: 38px;
     left: 60px;
     z-index: 2;
@@ -647,6 +717,7 @@ body {
     width: 230px;
     height: 220px;
     left: 345px;
+    cursor: pointer;
     top: 950px;
     z-index: 2;
     background: url(61wjDV8p6PL._AC_UY218_.jpg);
@@ -658,6 +729,7 @@ body {
     width: 230px;
     height: 38px;
     left: 345px;
+    cursor: pointer;
     top: 1178px;
     z-index: 2;
     font-family: 'JejuGothic';
@@ -674,6 +746,7 @@ body {
     width: 221px;
     height: 250px;
     left: 620px;
+    cursor: pointer;
     top: 950px;
     z-index: 2;
     background: url(4-5-years-k21eb132lbl05-kid1-original-imahfqmqfd7g9eqd.png);
@@ -683,12 +756,14 @@ body {
     position: absolute;
     width: 221px;
     height: 249px;
+    cursor: pointer;
     left: 625px;
     top: 1175px;
     z-index: 2;
 }
 
 .box2-4 .img2-4 {
+    cursor: pointer;
     position: absolute;
     width: 221px;
     height: 38px;
@@ -704,6 +779,7 @@ body {
     width: 221px;
     height: 38px;
     left: 895px;
+    cursor: pointer;
     top: 1180px;
     z-index: 2;
     font-family: 'JejuGothic';
@@ -721,6 +797,7 @@ body {
     height: 237px;
     left: 1180px;
     top: 928px;
+    cursor: pointer;
     z-index: 2;
     background: url(xxl-justpl08-digimi-original-imagxffgf2fdab2z.png);
 }
@@ -731,6 +808,7 @@ body {
     height: 38px;
     left: 1157px;
     top: 1180px;
+    cursor: pointer;
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
@@ -769,9 +847,34 @@ body {
     color: #000000;
 }
 
+.content .circle-3 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    left: 1370px;
+    top: 1268px;
+    z-index: 2;
+    background: #A4FAFA;
+}
+
+.content .arrows-3 {
+    /* chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 (1) 1 */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    left: 1365px;
+    top: 1266px;
+    z-index: 2;
+    background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
+
+}
+
 .box3-1 .img3-1 {
     position: absolute;
     width: 225px;
+    cursor: pointer;
     height: 237px;
     left: 55px;
     top: 1320px;
@@ -785,6 +888,7 @@ body {
     height: 38px;
     left: 59px;
     top: 1540px;
+    cursor: pointer;
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
@@ -801,6 +905,7 @@ body {
     height: 224px;
     left: 350px;
     top: 1330px;
+    cursor: pointer;
     z-index: 2;
     background: url(kiwi.jpg);
     border-radius: 6px;
@@ -816,6 +921,7 @@ body {
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
+    cursor: pointer;
     font-size: 20px;
     line-height: 22px;
     text-align: center;
@@ -828,6 +934,7 @@ body {
     height: 249px;
     left: 630px;
     top: 1330px;
+    cursor: pointer;
     z-index: 2;
     background: url(almond.jpg);
 }
@@ -837,6 +944,7 @@ body {
     width: 221px;
     height: 38px;
     left: 625px;
+    cursor: pointer;
     top: 1540px;
     z-index: 2;
     font-family: 'JejuGothic';
@@ -853,6 +961,7 @@ body {
     width: 221px;
     height: 237px;
     left: 897px;
+    cursor: pointer;
     top: 1310px;
     z-index: 2;
     background: url(pistachio.jpg);
@@ -868,6 +977,7 @@ body {
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
+    cursor: pointer;
     font-size: 20px;
     line-height: 22px;
     text-align: center;
@@ -881,6 +991,7 @@ body {
     left: 1192px;
     top: 1290px;
     z-index: 2;
+    cursor: pointer;
     background: url(mango.jpg);
 }
 
@@ -890,6 +1001,7 @@ body {
     height: 38px;
     left: 1190px;
     top: 1535px;
+    cursor: pointer;
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
@@ -929,11 +1041,35 @@ body {
     color: #000000;
 }
 
+.content .circle-4 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    left: 1370px;
+    top: 1625px;
+    z-index: 2;
+    background: #A4FAFA;
+}
+
+.content .arrows-4 {
+    /* chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 (1) 1 */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1365px;
+    top: 1624px;
+    cursor: pointer;
+    z-index: 2;
+    background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
+}
+
 .box4-1 .img4-1 {
     position: absolute;
     width: 221px;
     height: 237px;
     left: 65px;
+    cursor: pointer;
     top: 1680px;
     z-index: 2;
     background: url(refriherator.jpg);
@@ -949,6 +1085,7 @@ body {
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
+    cursor: pointer;
     font-size: 20px;
     line-height: 22px;
     text-align: center;
@@ -959,6 +1096,7 @@ body {
     position: absolute;
     width: 221px;
     height: 237px;
+    cursor: pointer;
     left: 345px;
     top: 1680px;
     z-index: 2;
@@ -972,6 +1110,7 @@ body {
     left: 345px;
     top: 1895px;
     z-index: 2;
+    cursor: pointer;
     font-family: 'JejuGothic';
     font-style: normal;
     font-weight: 400;
@@ -988,6 +1127,7 @@ body {
     left: 620px;
     top: 1670px;
     z-index: 2;
+    cursor: pointer;
     background: url(cycle.jpg);
 }
 
@@ -996,6 +1136,7 @@ body {
     width: 221px;
     height: 38px;
     left: 615px;
+    cursor: pointer;
     top: 1895px;
     z-index: 2;
     font-family: 'JejuGothic';
@@ -1012,6 +1153,7 @@ body {
     width: 221px;
     height: 237px;
     left: 895px;
+    cursor: pointer;
     top: 1660px;
     z-index: 2;
     background: url(dianingtable.jpg);
@@ -1021,6 +1163,7 @@ body {
     position: absolute;
     width: 221px;
     height: 38px;
+    cursor: pointer;
     left: 891px;
     top: 1895px;
     z-index: 2;
@@ -1038,6 +1181,7 @@ body {
     width: 221px;
     height: 237px;
     left: 1172px;
+    cursor: pointer;
     top: 1926px;
     z-index: 2;
     background: url(luggessets.jpg);
@@ -1049,6 +1193,7 @@ body {
     width: 221px;
     height: 237px;
     left: 1170px;
+    cursor: pointer;
     top: 1660px;
     z-index: 2;
     background: url(luggessets.jpg);
@@ -1063,6 +1208,7 @@ body {
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
+    cursor: pointer;
     font-weight: 400;
     font-size: 20px;
     line-height: 22px;
@@ -1098,6 +1244,29 @@ body {
     color: #000000;
 }
 
+.content .circle-5 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    left: 1370px;
+    top: 1988px;
+    z-index: 2;
+    background: #A4FAFA;
+}
+
+.content .arrows-5 {
+    /* chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 (1) 1 */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    left: 1365px;
+    top: 1987px;
+    z-index: 2;
+    background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
+}
+
 .box5-1 .img5-1 {
     position: absolute;
     width: 221px;
@@ -1105,6 +1274,7 @@ body {
     left: 70px;
     top: 2035px;
     z-index: 2;
+    cursor: pointer;
     background: url(shoes.jpg);
 }
 
@@ -1113,6 +1283,7 @@ body {
     width: 221px;
     height: 38px;
     left: 44px;
+    cursor: pointer;
     top: 2259px;
     z-index: 2;
     font-family: 'JejuGothic';
@@ -1131,6 +1302,7 @@ body {
     left: 340px;
     top: 2058px;
     z-index: 2;
+    cursor: pointer;
     background: url(laptop.jpg);
 }
 
@@ -1143,6 +1315,7 @@ body {
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
+    cursor: pointer;
     font-weight: 400;
     font-size: 20px;
     line-height: 22px;
@@ -1156,6 +1329,7 @@ body {
     height: 237px;
     left: 608px;
     top: 2040px;
+    cursor: pointer;
     z-index: 2;
     background: url(airpods.jpg);
 }
@@ -1166,6 +1340,7 @@ body {
     height: 38px;
     left: 608px;
     top: 2260px;
+    cursor: pointer;
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
@@ -1181,6 +1356,7 @@ body {
     width: 221px;
     height: 237px;
     left: 891px;
+    cursor: pointer;
     top: 2039px;
     z-index: 2;
     background: url(facewash.jpg);
@@ -1190,6 +1366,7 @@ body {
     position: absolute;
     width: 221px;
     height: 38px;
+    cursor: pointer;
     left: 891px;
     top: 2259px;
     z-index: 2;
@@ -1206,6 +1383,7 @@ body {
     position: absolute;
     width: 221px;
     height: 237px;
+    cursor: pointer;
     left: 1172px;
     top: 2040px;
     z-index: 2;
@@ -1217,6 +1395,7 @@ body {
     width: 221px;
     height: 38px;
     left: 1175px;
+    cursor: pointer;
     top: 2263px;
     z-index: 2;
     font-family: 'JejuGothic';
@@ -1254,11 +1433,37 @@ body {
     color: #000000;
 }
 
+.content .circle-6 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    left: 1370px;
+    top: 2345px;
+    z-index: 2;
+    background: #A4FAFA;
+}
+
+.content .arrows-6 {
+    /* chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 (1) 1 */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    left: 1365px;
+
+    top: 2344px;
+    z-index: 2;
+    background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
+}
+
 .box6-1 .img6-1 {
     position: absolute;
     width: 236px;
     height: 279px;
     left: 65px;
+    cursor: pointer;
+
     top: 2400px;
     z-index: 2;
     background: url(71NXowebfKL._AC_UL320_.jpg);
@@ -1276,7 +1481,9 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    cursor: pointer;
     line-height: 22px;
+
     text-align: center;
     color: #000000;
 }
@@ -1284,7 +1491,9 @@ body {
 .box6-2 .img6-2 {
     position: absolute;
     width: 221px;
+    cursor: pointer;
     height: 237px;
+
     left: 325px;
     top: 2366px;
     z-index: 2;
@@ -1294,12 +1503,14 @@ body {
 .box6-2 span {
     position: absolute;
     width: 221px;
+    cursor: pointer;
     height: 38px;
     left: 335px;
     top: 2620px;
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
+
     font-weight: 400;
     font-size: 20px;
     line-height: 22px;
@@ -1309,11 +1520,13 @@ body {
 
 .box6-3 .img6-3 {
     z-index: 2;
+    cursor: pointer;
     position: absolute;
     width: 221px;
     height: 237px;
     left: 608px;
     top: 2410px;
+
     background: url(pistachio.jpg);
 }
 
@@ -1322,7 +1535,9 @@ body {
     width: 221px;
     height: 38px;
     left: 609px;
+    cursor: pointer;
     top: 2620px;
+
     z-index: 2;
     font-family: 'JejuGothic';
     font-style: normal;
@@ -1336,9 +1551,11 @@ body {
 .box6-4 .img6-4 {
     position: absolute;
     width: 221px;
+    cursor: pointer;
     height: 237px;
     left: 890px;
     top: 2386px;
+
     background: url(pistachio.jpg);
     z-index: 2;
 }
@@ -1348,6 +1565,7 @@ body {
     width: 221px;
     height: 38px;
     left: 890px;
+    cursor: pointer;
     top: 2620px;
     z-index: 2;
     font-family: 'JejuGothic';
@@ -1356,6 +1574,7 @@ body {
     font-size: 20px;
     line-height: 22px;
     text-align: center;
+
     color: #000000;
 }
 
@@ -1363,9 +1582,12 @@ body {
     position: absolute;
     width: 221px;
     height: 231px;
+    cursor: pointer;
     left: 1175px;
     top: 2386px;
-    z-index:2;
+
+
+    z-index: 2;
     background: url(shoes.jpg);
 }
 
@@ -1374,6 +1596,7 @@ body {
     width: 221px;
     height: 38px;
     left: 1171px;
+    cursor: pointer;
     top: 2620px;
     z-index: 2;
     font-family: 'JejuGothic';
@@ -1381,6 +1604,216 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 22px;
+    cursor: pointer;
     text-align: center;
     color: #000000;
+}
+
+footer .firstline {
+    position: absolute;
+    width: 1470px;
+    height: 60px;
+    left: 0px;
+    top: 2700px;
+    z-index: 2;
+    background: #2D2270;
+
+}
+
+footer .backtext {
+    position: absolute;
+    width: 530px;
+    height: 42px;
+    left: calc(50% - 530px/2);
+    top: 2714px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .footerend {
+    position: absolute;
+    width: 1482px;
+    height: 400px;
+    left: -11px;
+    top: 2759px;
+    z-index: 2;
+    background: #070032;
+}
+
+footer .imglogo {
+    position: absolute;
+    width: 125px;
+    height: 113px;
+    left: 107px;
+    top: 2825px;
+    z-index: 2;
+    background: url(pngkey.com-cart-png-3969997.png);
+}
+
+footer .imgtext {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 5px;
+    top: 2970px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .getintouch {
+    position: absolute;
+    width: 245px;
+    height: 39px;
+    left: 388px;
+    top: 2811px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .facebook {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 408px;
+    top: 2887px;
+    z-index: 2;
+    cursor: pointer;
+    background: url(facebook1.png);
+}
+
+footer .twiter {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 482px;
+    top: 2889px;
+    z-index: 2;
+    cursor: pointer;
+    background: url(twiter.jpg);
+}
+
+footer .google {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 555px;
+    top: 2889px;
+    z-index: 2;
+    cursor: pointer;
+    background: url(google.png);
+}
+
+footer .subscribe {
+    position: absolute;
+    width: 245px;
+    height: 50px;
+    left: 700px;
+    top: 2810px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    cursor: pointer;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .EmailsBox input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    left: 768px;
+    top: 2940px;
+    z-index: 2;
+    background: #FFFFFF;
+    border: 1px solid #8E8989;
+    border-radius: 25px;
+    place-items: 25px;
+    font-size: 23px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+footer .btnsubscribe button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1230px;
+    top: 2940px;
+    z-index: 2;
+    background: #FFFFFF;
+    border: 1px solid #8E8989;
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: left;
+    cursor: pointer;
+    padding: 0 30px;
+}
+
+footer .fText {
+    position: absolute;
+    width: 752px;
+    height: 41px;
+    left: calc(50% - 752px/2 - 2px);
+    top: 3040px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    /* padding: 15px; */
+    /* display: flex;
+    padding: 10px; */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .linedrow {
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    left: calc(50% - 1200px/2 - 2px);
+    top: 3090px;
+    z-index: 2;
+    border: 1px solid #FFFFFF;
+    transform: rotate(0.4deg);
+}
+
+footer .endtext {
+    position: absolute;
+    width: 691px;
+    height: 47px;
+    left: calc(50% - 691px/2 + 1.5px);
+    top: 3120px;
+    z-index: 2;
+    font-family: 'JejuGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
 }
