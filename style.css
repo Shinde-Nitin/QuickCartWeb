@@ -281,21 +281,21 @@ body {
 
     color: #FFFFFF;
 }
-
+/* 
 .home .firstimghome {
-    /* Rectangle 5 */
+    Rectangle 5
 
     position: absolute;
-    /* width: 1520px; */
+    width: 1520px;
     height: 356px;
     right: 0px;
     top: 150px;
     cursor: pointer;
     background: url(banner2.png);
-}
-
+} */
+/* 
 .home .left {
-    /* Rectangle 6 */
+    Rectangle 6
     position: absolute;
     width: 50px;
     height: 100px;
@@ -307,7 +307,7 @@ body {
 }
 
 .home .left .leftarrow {
-    /* chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 2 */
+    chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 2
     position: absolute;
     width: 45px;
     height: 65px;
@@ -319,11 +319,11 @@ body {
 }
 
 .home .right {
-    /* Rectangle 7 */
+    Rectangle 7
     position: absolute;
     width: 50px;
     height: 100px;
-    /* left: 1381px; */
+    left: 1381px;
     right: 0px;
     top: 260px;
     cursor: pointer;
@@ -331,12 +331,12 @@ body {
 }
 
 .home .right .rightarrow {
-    /* chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 1 */
+    chevron_right_24dp_FILL0_wght400_GRAD0_opsz24 1
 
     position: absolute;
     width: 45px;
     height: 65px;
-    /* left: 1377px; */
+    left: 1377px;
     top: 20px;
     cursor: pointer;
     background: url(chevron_right_24dp_FILL0_wght400_GRAD0_opsz24.png);
@@ -344,8 +344,8 @@ body {
 }
 
 .home .right .rightarrow .dots .span1 {
-    /* Ellipse 4 */
-    /* box-sizing: border-box; */
+    Ellipse 4
+    box-sizing: border-box;
     position: absolute;
     width: 13px;
     height: 13px;
@@ -357,7 +357,7 @@ body {
 }
 
 .home .right .rightarrow .dots .span2 {
-    /* Ellipse 4 */
+    Ellipse 4
     box-sizing: border-box;
     position: absolute;
     width: 13px;
@@ -370,7 +370,7 @@ body {
 }
 
 .home .right .rightarrow .dots .span3 {
-    /* Ellipse 4 */
+    Ellipse 4
     box-sizing: border-box;
     position: absolute;
     width: 13px;
@@ -383,7 +383,7 @@ body {
 }
 
 .home .right .rightarrow .dots .span4 {
-    /* Ellipse 4 */
+    Ellipse 4
     box-sizing: border-box;
     position: absolute;
     width: 13px;
@@ -396,7 +396,7 @@ body {
 }
 
 .home .right .rightarrow .dots .span5 {
-    /* Ellipse 4 */
+    Ellipse 4
     box-sizing: border-box;
     position: absolute;
     width: 13px;
@@ -406,7 +406,7 @@ body {
     top: 200px;
     background: #faf7f7;
     border: 1px solid #000000;
-}
+} */
 
 /* .content{
     background-color: rgb(165, 165, 165);
